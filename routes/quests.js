@@ -1,9 +1,12 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Munra Awards 2022' });
+  const quests =[
+    {id: 1,
+    text:"Terna: Conchita 2022"}
+  ]
 });
 
 module.exports = router;
