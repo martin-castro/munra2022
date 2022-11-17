@@ -7,6 +7,7 @@ router.get('/', function(req, res, next) {
     {id: 1,
     text:"Terna: Conchita 2022"}
   ]
+  res.json(quests)
 });
 
 module.exports = router;
